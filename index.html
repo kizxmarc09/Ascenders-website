@@ -27,7 +27,7 @@
     }
     section {
       padding: 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: 0 auto;
     }
     iframe {
@@ -36,7 +36,7 @@
       border: none;
       border-radius: 12px;
     }
-    form {
+    form, .faq, .testimonials, .packages, .about, .mission {
       display: flex;
       flex-direction: column;
       gap: 1rem;
@@ -63,6 +63,27 @@
       font-size: 0.9rem;
       color: #777;
     }
+    .slideshow {
+      display: flex;
+      overflow: auto;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .slideshow img {
+      height: 200px;
+      border-radius: 10px;
+    }
+    .faq-item {
+      background: #f9f9f9;
+      border-left: 4px solid #0d0d0d;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .testimonial {
+      background: #f1f1f1;
+      padding: 1rem;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
@@ -72,9 +93,67 @@
   </header>
 
   <section>
+    <h2>About Me</h2>
+    <div class="about">
+      <p>Hi, I’m your business partner in growth! I started Ascenders International to empower aspiring entrepreneurs to build success through network marketing.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Mission & Vision</h2>
+    <div class="mission">
+      <p><strong>Mission:</strong> To provide people the opportunity and tools to achieve financial freedom and personal growth.</p>
+      <p><strong>Vision:</strong> To be a leading force in transforming lives through innovative and ethical network marketing.</p>
+    </div>
+  </section>
+
+  <section>
     <h2>Watch Our Video</h2>
-    <!-- Replace with your actual YouTube video link -->
     <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+  </section>
+
+  <section>
+    <h2>Our Product Packages</h2>
+    <div class="packages">
+      <p><strong>Starter Package:</strong> ₱999 - Includes access to training and starter kit</p>
+      <p><strong>Pro Package:</strong> ₱2,499 - Full tools + mentorship program</p>
+      <p><strong>Elite Package:</strong> ₱5,999 - All-in plus team support and leadership training</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>“Ascenders changed my life! I now earn while helping others grow.” – Ana R.</p>
+      </div>
+      <div class="testimonial">
+        <p>“The support and community here are amazing. Highly recommended!” – Mark D.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gallery Slideshow</h2>
+    <div class="slideshow">
+      <img src="https://via.placeholder.com/300x200?text=Event+1" alt="Event 1">
+      <img src="https://via.placeholder.com/300x200?text=Training" alt="Training">
+      <img src="https://via.placeholder.com/300x200?text=Team+Success" alt="Team">
+    </div>
+  </section>
+
+  <section>
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq">
+      <div class="faq-item">
+        <p><strong>Q: Kailangan ba ng experience?</strong></p>
+        <p>A: Hindi. May training kami na gabay mo simula sa umpisa.</p>
+      </div>
+      <div class="faq-item">
+        <p><strong>Q: May bayad ba monthly?</strong></p>
+        <p>A: Wala! One-time lang ang package mo.</p>
+      </div>
+    </div>
   </section>
 
   <section>
